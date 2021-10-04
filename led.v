@@ -21,7 +21,7 @@
 
 
 module led(
-    input [7:0] switch,
+    input [7:0] swiitch,
     input [7:0] led
     );
     assign led=switch;
